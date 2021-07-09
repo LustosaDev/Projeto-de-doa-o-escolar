@@ -1,0 +1,53 @@
+/*** Corpo da tela de Login ***/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/Banner-Login.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 250px;
+    padding: 50px;
+    position: absolute;
+    margin-top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.952);
+    text-align: center;
+
+}
+.box input{
+    width: 200px;
+    border-radius: 24px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid rgb(0, 153, 255);
+    padding: 9px 10px;
+    outline: none;
+}
+.box button{
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 23px;
+    padding: 8px 8px;
+    cursor: pointer;
+    background: white;
+}
+.box button:focus, button:hover, button:active{
+    background:rgba(0, 132, 255, 0.664);
+    transition: .8s;
+    width: 56%;
+    height: 50%;
+    transition: .8s;
+
+}
+p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+a{
+    color:rgb(0, 153, 255) ;
+}

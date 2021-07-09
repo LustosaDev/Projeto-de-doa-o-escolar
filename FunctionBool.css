@@ -1,0 +1,115 @@
+body{
+    background-image: url(../imagens/background\ body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin:0;
+    padding:0;
+    height: 453px;
+    background-image: url(../imagens/Banner\ prototipo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header article{
+    text-align: center;
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px;
+    margin: auto;
+}
+header article img{
+    margin-top: 140px;
+    width: 230px;
+}
+h1{
+    font-family: sans-serif;
+    color: #19abff;
+    margin-left: 7%;
+    margin-top: 99px;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #19abff;
+    margin-left: 10%;
+}
+form{
+    margin-left: 20%;
+}
+fieldset{
+    border: 0;
+}
+input, textarea, button{
+    border-radius: 8px;
+}
+input[type="text"]{
+    width: 300px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #4696f3;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo textarea{
+    padding:0.2em;
+    border: 1px solid #00a0fd;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+.campo input:focus, .campo textarea:focus{
+    background-color: white;
+}
+.Btn{
+    font-size: 1.2em;
+    background: #1984ff;
+    border: 0;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    color: white;
+    padding:0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.Btn:hover{
+    background: #00a0fd;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+#rodape{
+    margin-top: 150px;
+    display: block;
+}
+#rodape footer{
+    background-color:#38B6FF;
+    height: 90px;
+    width: 100%;
+    position: static;
+}
+#rodape footer p{
+    text-align: center;
+    font-size: x-small;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+
+}
+
+@media (max-width: 858px) {
+    form{
+        margin-left: 10%;
+    }
+}

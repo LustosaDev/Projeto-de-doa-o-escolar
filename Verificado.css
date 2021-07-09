@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(../imagens/Banner-Login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#VeriV article{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px ;
+}
+#VeriV article img{
+    margin-top: 140px;
+    width: 200px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    margin-left: 1em;
+    
+}
+a{
+    text-emphasis: none;
+    outline: none;
+    text-decoration:none;
+    text-shadow: none;
+    font-size: x-large;
+    color: rgb(41, 38, 214);
+    
+}
+a:focus, a:hover{
+    color: rgb(214, 38, 38);
+    font-size: xx-large;
+    transition: .8s; 
+}
+    
+

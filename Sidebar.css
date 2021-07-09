@@ -1,0 +1,113 @@
+
+/** CSS RESPONSIVO DA NAV SIDE BAR **/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    background-color: #38B6FF;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+label.logo {
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 25px;
+    width: 100px;
+    height: 100%;
+    line-height: 80px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.logo a:hover a:focus{
+    background: rgb(60, 60, 226);
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 5px;
+
+}
+ a.active, a:hover{
+    background: rgba(11, 134, 206, 0.527);
+    transition: .5s;
+}
+.checkbtn{
+
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+    }
+    nav ul li a{
+
+        font-size: 16px;
+    }
+     
+}
+@media ( max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        background: rgb(7, 110, 245);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+
+        font-size: 20px ;
+    }
+    a:active, a:hover{
+        background: none;
+        color: #27c718 ;
+        transition: .7s;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}    
+

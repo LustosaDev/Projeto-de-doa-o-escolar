@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="FunctionBool.css">
+    <link rel="stylesheet" type="text/css" href="/PROTÓTIPO - Project UNESCO/Sidebar.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>DoeLivros! | DonatePlusEducation</title>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check"> 
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">DonatePlusEducation</label>
+        <ul>
+            <li>
+                <a class="active" href="../HomePg.html">Home</a>
+            </li>
+            <li>
+                <a href="">Parcerias</a>
+            </li>
+            <li>
+                <a href="">Escolas</a>
+            </li>
+            <li>
+                <a href="">Contato</a>
+            </li>
+            <li>
+                <a href="">Equipe</a>
+            </li>
+            <li>
+                <a href="Apresentation.html">Perfil</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <article>
+        </article>
+    </header>
+    <div>
+        <h1>DonatePlusEducation</h1>
+        <p id="subtitulo">Preencha suas informações para poder Doar!</p>
+        <br>
+    </div>
+    <form action="Verificado.html"> 
+        <fieldset class="campo">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+            <br>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" required>
+            </div>
+            <br>
+            <div>
+                <label for="contato">Contato / Telefone</label>
+                <input type="text" placeholder="(xx) x xxxx-xxxx" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="endereço">Endereço</label>
+            <input type="text" id="Endereço" required>
+        </div>
+        <div class="campo">
+            <label for="cep">CEP</label>
+            <input type="text" id="CEP" required>
+        </div>
+        <fieldset class="campo">
+            <label>Quais tipos de livro deseja doar?</label><br><br>
+            <label>
+                <input type="checkbox" name="LivroD" value="didatico"checked> Livros Didáticos
+            </label>
+            <label>
+                <input type="checkbox" name="LivroD" value="literatura"> Literatura Infantil
+            </label>
+            <label>
+                <input type="checkbox" name="LivroD" value="adolescente"> Infantojuvenil
+            </label>
+            <label>
+                <input type="checkbox" name="LivroD" value="apostilas"> Apostilas e Cursos
+            </label>
+        </fieldset> 
+        
+        <div class="campo">
+            <br>
+            <label>
+                Dê sugestões de como podemos melhorar nosso APP
+            </label>
+            <textarea row="6" style="width: 26em" id="sugestao" name="sugestao"></textarea>
+        </div>
+
+        <button class="Btn" type="submit">Concluído</button>
+    </form>
+    <div id="rodape">
+        <footer>
+            <p>
+              EDUCAÇÃO E QUALIDADE - UNESCO | 
+              Instituto de Educação, ciência 
+              e tecnologia MA
+            </p>
+        </footer>
+    </div>
+</html>
+
